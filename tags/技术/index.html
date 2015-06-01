@@ -1,5 +1,97 @@
-<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="zhaolife,找生活,hexo"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="alternative" href="/atom.xml" title="找生活" type="application/atom+xml"><link rel="icon" href="/favicon.png"><title>技术 - 找生活</title><link rel="stylesheet" href="/css/main.css" type="text/css"><!--[if lt IE 9]><script>(function(a,b){a="abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video".split(" ");for(b=a.length-1;b>=0;b--)document.createElement(a[b])})()</script><![endif]--></head><body><header class="head"><h1 class="head-title u-fl"><a href="/">找生活</a></h1><nav class="head-nav u-fr"><ul class="head-nav__list"><li class="head-nav__item"><a href="/" class="head-nav__link">Home</a></li><li class="head-nav__item"><a href="/archives" class="head-nav__link">Archives</a></li></ul></nav></header><main class="main"><article class="post"><header class="post__head"><time datetime="2015-05-31T14:54:01.000Z" class="post__time">五月 31, 2015</time><h1 class="post__title"><a href="/2015/05/31/Hexo小白教程-Github搭建静态博客程序/">Hexo小白教程 Github搭建静态博客程序</a></h1></header><div class="post__main echo"><h3 id="Hexo介绍">Hexo介绍</h3><p>hexo是来自台湾大学生<a href="http://zespia.tw/" target="_blank" rel="external">@tommy351</a>所研究的一个基于Node.js的静态博客程序。有了它，我们就可以很方便地把它生成静态网页托管到github和Heroku上。</p>
-<h3 id="为什么要用Hexo">为什么要用Hexo</h3><p>在当下快餐式阅读泛滥的今天，有那么一群人不断地为用户带来有价值的阅读，他们一路坚持着写作。可是大型博客网站的衰落、自建博客服务（WordPress、z-blog…）高额的维护成本，让他们难以前行。创造无限可能的技术大牛们在这时为我们创造了新的机遇，</p>
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="zhaolife,找生活,hexo"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="alternative" href="/atom.xml" title="找生活" type="application/atom+xml"><link rel="icon" href="/favicon.png"><title>技术 - 找生活</title><link rel="stylesheet" href="/css/main.css" type="text/css"><!--[if lt IE 9]><script>(function(a,b){a="abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video".split(" ");for(b=a.length-1;b>=0;b--)document.createElement(a[b])})()</script><![endif]--></head><body><header class="head"><h1 class="head-title u-fl"><a href="/">找生活</a></h1><nav class="head-nav u-fr"><ul class="head-nav__list"><li class="head-nav__item"><a href="/" class="head-nav__link">Home</a></li><li class="head-nav__item"><a href="/archives" class="head-nav__link">Archives</a></li></ul></nav></header><main class="main"><article class="post"><header class="post__head"><time datetime="2015-06-01T14:15:17.000Z" class="post__time">六月 1, 2015</time><h1 class="post__title"><a href="/2015/06/01/专注写作 Markdown语言10分钟速成/">专注写作 Markdown语言10分钟速成</a></h1></header><div class="post__main echo"><h2 id="起因：">起因：</h2><p>Markdown语言，在小众群体：程序猿、github圈、专业作家里早已流行。Markdown一词也多次出现我的眼前，可我多次把它忽略，直到周末使用typecho开源程序搭建了该站。发现typecho支持Markdown语言撰写文章，一个无聊的下午，一个无聊的我，开始研究起Markdown。经过大量的资料搜索，学习，发现Markdown语言对专注写作有一定帮助。</p>
+<h2 id="Markdown是什么？">Markdown是什么？</h2><p>引用<a href="https://zh.wikipedia.org/wiki/Markdown" target="_blank" rel="external"><strong>维基百科</strong></a>的介绍，Markdown 是一种轻量级标记语言，创始人为约翰·格鲁伯（John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML(或者HTML)文档”，甚至直接导出PDF文件。<a id="more"></a></p>
+<h2 id="Markdown的优点：">Markdown的优点：</h2><ul>
+<li>标准统一</li>
+<li>语法简洁</li>
+<li>轻量级、简单、容易上手</li>
+<li>减少排版，专注写作</li>
+<li>广泛应用（blog、<a href="https://github.com/" target="_blank" rel="external">github</a>、<a href="http://www.jianshu.com/" target="_blank" rel="external">简书</a>、写作）</li>
+</ul>
+<h2 id="Markdown的使用：">Markdown的使用：</h2><ul>
+<li><strong>说明：</strong><br>通过Markdown语言撰写的内容，可以转换成Html和导出PDF，不限软件限制，不担心排版混乱。学习成本远低于word，功能性远超text。</li>
+</ul>
+<ol>
+<li><strong>标题：</strong><br>平时常用的的文本编辑器中实现的方式是这样的：输入文本、选中文本、设置标题格式。<br>用Markdown我们不需要这么麻烦，你只需要在文本前面加上“#” 即可，一个“#”代表一级标题，增加”##”代表二级标题、三级标题、四级标题、五级标题和六级标题同理，总共六级，”#”越多标题字号相应降低。例如：<figure class="highlight vala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="preprocessor"># 一级标题</span></span><br><span class="line"><span class="preprocessor">## 二级标题</span></span><br><span class="line"><span class="preprocessor">### 三级标题</span></span><br><span class="line">....</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<ul>
+<li><strong>效果是这样：</strong><h1 id="一级标题">一级标题</h1><h2 id="二级标题">二级标题</h2><h3 id="三级标题">三级标题</h3><blockquote>
+<p>注：”#”只是标题的其中一种表现方式，还有其他表现方式，详情：<a href="http://wowubuntu.com/markdown/index.html" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a></p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li><strong>列表：</strong><br>在Markdown语言，添加列表的方式，也很简单。</li>
+</ol>
+<p><strong>无序列表：</strong><br><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">-<span class="ruby"> 文本<span class="number">1</span></span><br><span class="line"></span>-<span class="ruby"> 文本<span class="number">2</span></span></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong></li>
+<li>文本1</li>
+<li>文本2</li>
+</ul>
+<p><strong>有序列表：</strong><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span>文本1</span><br><span class="line"><span class="bullet">2. </span>文本2</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong></li>
+</ul>
+<ol>
+<li>文本1</li>
+<li><p>文本2</p>
+<blockquote>
+<p>注：”#”、”-“、”1.”与文本之间加上一个空格</p>
+</blockquote>
+</li>
+<li><p><strong>链接：</strong><br>在Markdown语言，添加链接的方式和HTML的类似“文字+链接”</p>
+</li>
+</ol>
+<p><strong>链接例子：</strong><br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[<span class="link_label">链接文本</span>](<span class="link_url">http://www.nozuonodie.info</span>)</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><br><a href="http://www.nozuonodie.info" target="_blank" rel="external">链接文本</a></li>
+</ul>
+<ol>
+<li><strong>图片：</strong><br>在Markdown语言，图片添加和链接逻辑是一样，只是多了一个”!”</li>
+</ol>
+<p><strong>图片例子：</strong><br><figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">!<span class="attr_selector">[]</span>(<span class="attribute">http</span>:<span class="comment">//photo.zhaolife.com/wuhan-04.jpg)</span></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><br><img src="http://photo.zhaolife.com/wuhan-04.jpg" alt=""></li>
+</ul>
+<ol>
+<li><strong>粗体和斜体：</strong><br>在普通的文本编辑器或者word我们添加粗体和斜体，一般会选择类似”b”和”/“的按钮来添加，在Markdown语言，粗体和斜体的实现就变得容易很多了。</li>
+</ol>
+<p><strong>粗体：</strong><br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span><span class="keyword">*</span>粗体1<span class="keyword">*</span><span class="keyword">*</span></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><br><strong>粗体1</strong></li>
+</ul>
+<p><strong>斜体：</strong><br><figure class="highlight gherkin"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">*</span>斜体1<span class="keyword">*</span></span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><br><em>斜体1</em></li>
+</ul>
+<ol>
+<li><strong>引用：</strong><br>在写作的时，需要引用他人的文字，在Markdown语言中，可以通过”&gt;”来实现。</li>
+</ol>
+<p><strong>引用的例子：</strong><br><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt;引用一段话</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><blockquote>
+<p>引用一段话</p>
+</blockquote>
+</li>
+</ul>
+<ol>
+<li><strong>代码显示：</strong><br>程序员经常需要在内容中粘贴代码展示，在Markdown语言里，显示单行代码用”``”来表示</li>
+</ol>
+<p><strong>代码：</strong><br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`<span class="tag">&lt;<span class="title">html</span>&gt;</span><span class="tag">&lt;/<span class="title">html</span>&gt;</span>`</span><br></pre></td></tr></table></figure></p>
+<ul>
+<li><strong>效果是这样：</strong><br><code>&lt;html&gt;&lt;/html&gt;</code></li>
+</ul>
+<h2 id="结语：">结语：</h2><p>上面所展示的只是Markdown语言的速成部分，用10分钟学懂以上的内容，就足以应付日常的写作需求了，Markdown还能编写表格，流程图…如想了解Markdown语言更多的内容可以查看<strong><a href="http://wowubuntu.com/markdown/index.html" target="_blank" rel="external">Markdown 语法说明 (简体中文版)</a></strong></p>
+<h2 id="Markdown工具介绍：">Markdown工具介绍：</h2><p>你看完以上的内容，产生浓厚的兴趣想马上体验Markdown，在这向大家介绍几款Markdown编辑器：</p>
+<ul>
+<li><a href="http://maxiang.info/" target="_blank" rel="external">马克飞象 - 专为印象笔记打造的Markdown编辑器</a></li>
+<li><a href="http://markdown.xiaoshujiang.com/" target="_blank" rel="external">小书匠markdown编辑器</a></li>
+<li><a href="https://markdownpad.com" target="_blank" rel="external">markdownpad-强大的Markdown 本地写作工具</a></li>
+</ul>
+<p><strong>以上内容使用Markdown编辑，更多内容，待续…</strong></p>
+</div><footer class="post__foot u-cf"><ul class="post__tag u-fl"><li class="post__tag__item"><a href="/tags/技术/" class="post__tag__link">技术</a></li></ul><a href="/2015/06/01/专注写作 Markdown语言10分钟速成/#disqus_thread" class="post__foot-link u-fr">0 COMMENTS</a></footer></article><article class="post"><header class="post__head"><time datetime="2015-05-31T14:54:01.000Z" class="post__time">五月 31, 2015</time><h1 class="post__title"><a href="/2015/05/31/Hexo小白教程-Github搭建静态博客程序/">Hexo小白教程 Github搭建静态博客程序</a></h1></header><div class="post__main echo"><h3 id="Hexo介绍">Hexo介绍</h3><p>hexo是来自台湾大学生<a href="http://zespia.tw/" target="_blank" rel="external">@tommy351</a>所研究的一个基于Node.js的静态博客程序。有了它，我们就可以很方便地把它生成静态网页托管到github和Heroku上。</p>
+<h3 id="为什么要用Hexo">为什么要用Hexo</h3><p>在当下快餐式阅读泛滥的今天，有那么一群人不断地为用户带来有价值的阅读，他们一路坚持着写作。可是大型博客网站的衰落、自建博客服务（WordPress、z-blog…）高额的维护成本，让他们难以前行。创造无限可能的技术大牛们在这时为我们创造了新的机遇。<a id="more"></a></p>
 <p>使用github平台Pages的特性，可以让用户在平台上搭建个人站点。现在使用该特性搭建网站的程序有很多，如：较早比较成熟的<a href="http://jekyllrb.com/" target="_blank" rel="external">Jekyll</a>，简化版Jekyll的<a href="http://octopress.org/" target="_blank" rel="external">Octopress</a>，还有正在介绍的<a href="http://hexo.io/zh-cn/" target="_blank" rel="external">Hexo</a>。</p>
 <p><strong>Hexo的优势：</strong></p>
 <ul>
@@ -43,10 +135,10 @@
 <h3 id="部署到Github">部署到Github</h3><p>在Hexo安装的目录下，打开_config.yml文件，修改内容：</p>
 <figure class="highlight groovy"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line"><span class="string">title:</span> Snow Memory <span class="comment">//博客名</span></span><br><span class="line"><span class="string">subtitle:</span> <span class="comment">//博客副标题</span></span><br><span class="line"><span class="string">description:</span> <span class="comment">//网站描述</span></span><br><span class="line"><span class="string">author:</span> <span class="comment">//作者名称</span></span><br><span class="line"><span class="string">email:</span> <span class="comment">//作者邮箱</span></span><br><span class="line"><span class="string">language:</span> zh-CN <span class="comment">//网页编码,中文</span></span><br><span class="line"></span><br><span class="line"># URL</span><br><span class="line">## If your site is put <span class="keyword">in</span> a subdirectory, set url <span class="keyword">as</span> <span class="string">'http://yoursite.com/child'</span> and root <span class="keyword">as</span> <span class="string">'/child/'</span></span><br><span class="line"><span class="string">url:</span> <span class="string">http:</span><span class="comment">//zhaolife.com //用于绑定域名</span></span><br><span class="line"></span><br><span class="line"># Deployment  站点部署到githubd的内容 非常重要</span><br><span class="line">## <span class="string">Docs:</span> <span class="string">http:</span><span class="comment">//hexo.io/docs/deployment.html</span></span><br><span class="line"><span class="string">deploy:</span></span><br><span class="line"><span class="label">  type:</span> git    #部署类型, 本文使用Git</span><br><span class="line"><span class="label">  repository:</span> git<span class="annotation">@github</span>.<span class="string">com:</span>Andrew-liu/Andrew-liu.github.io.git  #部署的仓库的SSH</span><br><span class="line"><span class="label">  branch:</span> master   #部署分支,一般使用master主分支</span><br></pre></td></tr></table></figure>
 <p>当以上修改完后，运行命令：</p>
-<figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate <span class="comment">//生成静态页面</span></span><br><span class="line"></span><br><span class="line">hexo deploy  <span class="preprocessor">#进行部署</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo <span class="keyword">generate</span> <span class="comment">//生成静态页面</span></span><br><span class="line"></span><br><span class="line">hexo deploy <span class="comment">//进行部署</span></span><br></pre></td></tr></table></figure>
 <p>Hexo部署完后，在浏览器中，输入我们早前设置的“用户名.github.io”即可看到全新的页面。</p>
 <h3 id="Hexo新建文章">Hexo新建文章</h3><p>运行命令：</p>
-<p><code>hexo new &quot;postName&quot; #新建文章</code></p>
+<p><code>hexo new &quot;postName&quot; //新建文章</code></p>
 <p>在本地目录下就会显示md结尾的文件：<code>source/_posts\postName.md</code></p>
 <p>只要使用Markdown的编辑器，可以打开md文件，进行写作。</p>
 </div><footer class="post__foot u-cf"><ul class="post__tag u-fl"><li class="post__tag__item"><a href="/tags/技术/" class="post__tag__link">技术</a></li></ul><a href="/2015/05/31/Hexo小白教程-Github搭建静态博客程序/#disqus_thread" class="post__foot-link u-fr">0 COMMENTS</a></footer></article></main><footer class="foot"><div class="foot-copy u-fl">&copy; 2015 zhao</div><menu class="page-menu u-fr"><li class="page-menu__item"><span title="Previous" class="page-menu__link icon-arrow-left page-menu__link--disabled"></span></li><li class="page-menu__item"><span title="Next" class="page-menu__link icon-arrow-right page-menu__link--disabled"></span></li></menu></footer></body></html>
