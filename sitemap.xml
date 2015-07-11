@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/07/11/ios9publicbeta/</loc>
+    <lastmod>2015-07-11T13:05:52.832Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/about/index.html</loc>
     <lastmod>2015-06-28T15:46:00.726Z</lastmod>
   </url>
