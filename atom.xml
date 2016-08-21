@@ -5,7 +5,7 @@
   <subtitle><![CDATA[有态度地寻找发现生活的美]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-08-21T14:52:27.566Z</updated>
+  <updated>2015-12-31T15:42:57.424Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -14,21 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[test]]></title>
-    <link href="http://yoursite.com/2016/08/21/test/"/>
-    <id>http://yoursite.com/2016/08/21/test/</id>
-    <published>2016-08-21T14:50:01.000Z</published>
-    <updated>2016-08-21T14:52:27.566Z</updated>
-    <content type="html"><![CDATA[<h2 id="Test">Test</h2><p>测试成功。。。。。</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="Test">Test</h2><p>测试成功。。。。。</p>
-]]>
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[2015年度总结]]></title>
