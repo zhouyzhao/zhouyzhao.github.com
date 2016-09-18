@@ -494,30 +494,31 @@ video {
 /* ==========================================================================
    Partial
    ========================================================================== */
-.head,
 .main,
 .foot {
   margin: 0 auto;
   width: 900px;
 }
-.head,
 .foot {
-  padding: 0 60px;
-  height: 120px;
-  border: 1px solid #000;
+  padding: 0 30px;
+  height: 86px;
   background-color: #262a30;
-  box-shadow: 1px 2px 3px #ddd;
-  line-height: 118px;
+  line-height: 80px;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 .head {
-  margin-top: 90px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 6rem 2rem 4rem;
+  background-color: #df3120;
+  background-image: linear-gradient(120deg, #d0554c, #c7334a, #d5684d);
 }
 .head-title {
-  font-size: 30px;
-  font-size: 1.875rem;
   font-weight: normal;
+  font-size: 3.25rem;
+  margin-top: 0;
+  margin-bottom: 3rem;
 }
 .head-title > a {
   color: #fff;
@@ -527,7 +528,7 @@ video {
   margin-left: 20px;
 }
 .head-nav__link {
-  color: #999;
+  color: #fff;
 }
 .head-nav__link:hover {
   color: #fff;
@@ -550,11 +551,9 @@ video {
   background-color: #fff;
   box-shadow: 1px 2px 3px #ddd;
 }
-.foot {
-  margin-bottom: 30px;
-}
+.foot,
 .foot-copy {
-  color: #999;
+  color: #fff;
   font-size: 12px;
   font-size: 0.75rem;
 }
@@ -562,12 +561,12 @@ video {
   display: inline-block;
 }
 .page-menu__link {
-  color: #fff;
+  color: #df3120;
   font-size: 30px;
   font-size: 1.875rem;
 }
 .page-menu__link--disabled {
-  color: #999;
+  color: #fff;
 }
 .post {
   overflow: hidden;
@@ -577,11 +576,12 @@ video {
 }
 .post__head {
   margin: 60px;
+  line-height: 40px;
 }
 .post__time {
-  color: #ccc;
-  font-size: 12px;
-  font-size: 0.75rem;
+  color: #757575;
+  font-size: 14px;
+  font-size: 0.875rem;
 }
 .post__title {
   margin-top: 5px;
@@ -591,7 +591,10 @@ video {
   font-weight: normal;
 }
 .post__title > a {
-  color: #666;
+  color: #45474e;
+}
+.post__title > a:hover {
+  color: #df3120;
 }
 .post__image {
   display: block;
@@ -652,8 +655,12 @@ video {
 .post__foot-link,
 .post__tag__link,
 .post__more {
-  padding: 10px;
-  color: #999;
+  padding: 4px 10px;
+  color: #df3120;
+  font-size: 12px;
+  font-size: 0.75rem;
+  border: 2px solid #df3120;
+  border-radius: 100px;
   font-size: 12px;
   font-size: 0.75rem;
 }
@@ -664,56 +671,72 @@ video {
   display: block;
 }
 .post__tag__link:hover {
-  color: #666;
+  color: #df3120;
 }
 .post__tag__link:before {
-  content: "#";
+  content: "● ";
 }
 .post__more {
-  padding: 10px 20px;
-  border: 1px solid #bbb;
-  border-radius: 3px;
-  background-color: #ccc;
-  color: #fff;
+  padding: 4px 10px;
+  border: 2px solid #df3120;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #df3120;
 }
 .post__more:hover {
-  background-color: #ddd;
+  background-color: #df3120;
+  color: #fff;
 }
 /* ==========================================================================
    Responsive
    ========================================================================== */
 @media (min-width: 768px) and (max-width: 979px) {
-  body {
-    margin: 30px;
-  }
-  .head,
+  body,
   .main,
   .foot {
     width: 100%;
   }
   .head {
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem 2rem 4rem;
+    background-color: #df3120;
+    background-image: linear-gradient(120deg, #d0554c, #c7334a, #d5684d);
+  }
+  .head-title {
+    font-size: 2rem;
+    font-weight: normal;
     margin-top: 0;
+    margin-bottom: 2rem;
   }
   .foot {
     margin-bottom: 0;
   }
 }
 @media (max-width: 767px) {
-  body {
-    margin: 20px;
-  }
-  .head,
+  body,
   .main,
   .foot {
     width: 100%;
   }
-  .head,
+  .head {
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem 2rem 4rem;
+    background-color: #df3120;
+    background-image: linear-gradient(120deg, #d0554c, #c7334a, #d5684d);
+  }
   .foot {
     padding: 20px;
     height: auto;
     line-height: inherit;
   }
-  .head-title,
+  .head-title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
   .head-nav,
   .foot-copy,
   .page-menu {
@@ -760,6 +783,7 @@ video {
     box-sizing: border-box;
     width: 100%;
     text-align: center;
+    padding: 8px;
   }
   .post__image {
     margin: 20px -20px;
