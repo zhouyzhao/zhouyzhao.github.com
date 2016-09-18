@@ -5,7 +5,7 @@
   <subtitle><![CDATA[有态度地寻找发现生活的美]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-09-18T06:01:22.948Z</updated>
+  <updated>2016-09-07T15:12:38.966Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -14,21 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[test01]]></title>
-    <link href="http://yoursite.com/2016/09/18/test01/"/>
-    <id>http://yoursite.com/2016/09/18/test01/</id>
-    <published>2016-09-18T06:00:34.000Z</published>
-    <updated>2016-09-18T06:01:22.948Z</updated>
-    <content type="html"><![CDATA[<p>测试00001</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>测试00001</p>
-]]>
-    </summary>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[说走就走的旅行 190港币游香港两天]]></title>
