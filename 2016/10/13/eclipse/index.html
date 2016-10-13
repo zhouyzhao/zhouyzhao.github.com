@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="description" content="zhaolife（找生活）有态度地寻找发现生活的美"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="alternative" href="/atom.xml" title="找生活" type="application/atom+xml"><link rel="icon" href="/favicon.png"><title>Python IDE环境搭建 eclipse+PyDev - 找生活</title><link rel="stylesheet" href="/css/main.css" type="text/css"><!--[if lt IE 9]><script>(function(a,b){a="abbr article aside audio bdi canvas data datalist details dialog figcaption figure footer header hgroup main mark meter nav output progress section summary template time video".split(" ");for(b=a.length-1;b>=0;b--)document.createElement(a[b])})()</script><![endif]--></head><body><header class="head"><h1 class="head-title"><a href="/">找生活</a></h1><nav class="head-nav"><ul class="head-nav__list"><li class="head-nav__item"><a href="/" class="head-nav__link">Home</a></li><li class="head-nav__item"><a href="/archives" class="head-nav__link">Archives</a></li><li class="head-nav__item"><a href="/about" class="head-nav__link">About</a></li><li class="head-nav__item"><a href="/atom.xml" class="head-nav__link">Rss</a></li></ul></nav></header><main class="main"><article class="post"><header class="post__head"><h1 class="post__title"><a href="/2016/10/13/eclipse/">Python IDE环境搭建 eclipse+PyDev</a></h1><time datetime="2016-10-13T11:23:46.000Z" class="post__time">十月 13, 2016</time></header><div class="post__main echo"><p>学习Python语言是因为它简洁，优雅的风格。刚开始学习Python时，我是直接使用Sublime text编辑器进行学习的。但一直学习的过程中，感觉脑子不好使，经常记不住函数的使用方法，而Sublime text的语法提示也没有详细的语法说明。权衡下，还是折腾IDE吧。</p>
+<p>现在折腾的eclipse+PyDev方案，算是免费版中较好的一个方案。如果付费可以选择较为热门的pycharm，当然pycharm也有免费的社区版，但有部分功能被阉割了。<a id="more"></a></p>
+<p><strong>前期准备</strong></p>
+<ul>
+<li><a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">JDK</a></li>
+<li><a href="https://www.python.org/downloads/" target="_blank" rel="external">python</a></li>
+<li><a href="http://www.eclipse.org/downloads/packages/eclipse-ide-java-and-dsl-developers/neon1a" target="_blank" rel="external">eclipse</a></li>
+<li><a href="http://www.pydev.org/download.html" target="_blank" rel="external">PyDev</a></li>
+</ul>
+<p>（点链接，可跳转到相关应用的下载页）</p>
+<p>安装eclipse之前需要安装JDK，而我安装的是JDK8和eclipse neon1版本。</p>
+<p>所以先到java官网下载JDK然后进行环境配置：</p>
+<p><img src="http://photo.zhaolife.com/jdk-1.jpg" alt=""></p>
+<p>先配置path变量</p>
+<p>选择jdk8的安装目录：比如我安装在C盘下</p>
+<p>输入变量值：;C:\Java\jdk1.8.0_05\bin</p>
+<p><img src="http://photo.zhaolife.com/jdk-2.jpg" alt=""><br>在配置classpath变量 需要配置tools.jar，dt.jar</p>
+<p>输入变量值为:.;C:\Java\jdk1.8.0_05\lib\tools.jar;D:\Java\jdk1.8.0_05\lib\dt.jar</p>
+<p><img src="http://photo.zhaolife.com/jdk-3.jpg" alt=""></p>
+<p>测试 </p>
+<p>点击‘开始-运行’</p>
+<p>输入cmd 命令 打开DOS窗口</p>
+<p>再输入javac</p>
+<p>JDK配置好，就可以下载eclipse，eclipse直接下载，解压就可以使用。然后，我们就进行PyDev的下载配置。</p>
+<p>打开eclipse→顶部工具栏（Help）→Install New Software</p>
+<p><img src="http://photo.zhaolife.com/eclipes-1.jpg" alt=""></p>
+<p>add→Name（PyDev）→输入下载地址：（<a href="http://pydev.org/updates）→OK" target="_blank" rel="external">http://pydev.org/updates）→OK</a></p>
+<p><img src="http://photo.zhaolife.com/eclipes-2.jpg" alt=""></p>
+<p>eclipse会查找到PyDev→勾选PyDev→取消勾选（Contact all update sites during install to find required software）→点Next 就可以开始安装了，在安装过程中，会弹出接受协议许可和证书验证，选择接受协议，点Finish，最后OK，稍等片刻，重启eclipse就安装完成。</p>
+<p><img src="http://photo.zhaolife.com/eclipes-3.jpg" alt=""></p>
+<p>配置PyDev→顶部栏（window）→Preferences→看到刚安装PyDev→点（Interpreters）→Python Interpreter→Auto Config就能自动配置电脑里的相关路径的python，python环境自动配置好，点OK就可以使用eclipse进行python编程了。</p>
+</div><footer class="post__foot u-cf"><ul class="post__tag u-fl"><li class="post__tag__item"><a href="/tags/技术/" class="post__tag__link">技术</a></li></ul><!--a.post__foot-link.u-fr(href = config.root + post.path + '#disqus_thread')= theme.comment_link--><a href="/2016/10/13/eclipse/#duoshuoComments" class="u-fr"></a></footer></article><div class="comments"><!--多说评论框 start--><div id="duoshuoComments" data-thread-key="post-eclipse" data-title="Python IDE环境搭建 eclipse+PyDev" data-url="http://yoursite.com/2016/10/13/eclipse/" class="ds-thread"></div><!--多说评论框 end--></div></main><footer class="foot"><div class="foot-copy u-fl">&copy; 2016 zhao</div><menu class="page-menu u-fr"><li class="page-menu__item"><span title="Previous" class="page-menu__link icon-arrow-left page-menu__link--disabled"></span></li><li class="page-menu__item"><a title="Next" href="/2016/09/06/190hk/" class="page-menu__link icon-arrow-right"></a></li></menu></footer><script>var duoshuoQuery = {short_name:'zhouyzhao'};
+//console.log(duoshuoQuery);
+(function() {
+  var ds = document.createElement('script');
+  ds.type = 'text/javascript';ds.async = true;
+  ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+  ds.charset = 'UTF-8';
+  (document.getElementsByTagName('head')[0] 
+   || document.getElementsByTagName('body')[0]).appendChild(ds);
+})();
+</script></body></html>
