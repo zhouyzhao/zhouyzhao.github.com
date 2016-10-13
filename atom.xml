@@ -5,7 +5,7 @@
   <subtitle><![CDATA[有态度地寻找发现生活的美]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2016-10-13T14:18:43.410Z</updated>
+  <updated>2016-10-13T14:21:54.754Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/10/13/eclipse/"/>
     <id>http://yoursite.com/2016/10/13/eclipse/</id>
     <published>2016-10-13T11:23:46.000Z</published>
-    <updated>2016-10-13T14:18:43.410Z</updated>
+    <updated>2016-10-13T14:21:54.754Z</updated>
     <content type="html"><![CDATA[<p>学习Python语言是因为它简洁，优雅的风格。刚开始学习Python时，我是直接使用Sublime text编辑器进行学习的。但一直学习的过程中，感觉脑子不好使，经常记不住函数的使用方法，而Sublime text的语法提示也没有详细的语法说明。权衡下，还是折腾IDE吧。</p>
 <p>现在折腾的eclipse+PyDev方案，算是免费版中较好的一个方案。如果付费可以选择较为热门的pycharm，当然pycharm也有免费的社区版，但有部分功能被阉割了。<a id="more"></a></p>
 <p><strong>前期准备</strong></p>
@@ -47,7 +47,7 @@
 <p>JDK配置好，就可以下载eclipse，eclipse直接下载，解压就可以使用。然后，我们就进行PyDev的下载配置。</p>
 <p>打开eclipse→顶部工具栏（Help）→Install New Software</p>
 <p><img src="http://photo.zhaolife.com/eclipes-1.jpg" alt=""></p>
-<p>add→Name（PyDev）→输入下载地址：（<a href="http://pydev.org/updates）→OK" target="_blank" rel="external">http://pydev.org/updates）→OK</a></p>
+<p>add→Name（PyDev）→输入下载地址：（<a href="http://pydev.org/updates）" target="_blank" rel="external">http://pydev.org/updates）</a> →OK</p>
 <p><img src="http://photo.zhaolife.com/eclipes-2.jpg" alt=""></p>
 <p>eclipse会查找到PyDev→勾选PyDev→取消勾选（Contact all update sites during install to find required software）→点Next 就可以开始安装了，在安装过程中，会弹出接受协议许可和证书验证，选择接受协议，点Finish，最后OK，稍等片刻，重启eclipse就安装完成。</p>
 <p><img src="http://photo.zhaolife.com/eclipes-3.jpg" alt=""></p>
