@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Sitemap: http://zhaolife.com/sitemap.xml
+Sitemap: http://zhaolife.com/baidusitemap.xml
