@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2017/01/01/2016report/</loc>
+    <lastmod>2017-01-02T03:21:46.498Z</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2015/12/31/2015report/</loc>
+    <lastmod>2017-01-01T16:01:09.921Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/10/13/eclipse/</loc>
     <lastmod>2016-10-13T14:21:54.754Z</lastmod>
   </url>
@@ -14,11 +24,6 @@
   <url>
     <loc>http://yoursite.com/2016/09/06/190hk/</loc>
     <lastmod>2016-09-07T15:12:38.966Z</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/2015/12/31/2015report/</loc>
-    <lastmod>2016-08-22T13:17:02.029Z</lastmod>
   </url>
   
   <url>
