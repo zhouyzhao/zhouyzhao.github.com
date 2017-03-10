@@ -2,9 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/wiki/index.html</loc>
+    <loc>http://yoursite.com/pop/index.html</loc>
     
-    <lastmod>2017-03-10T15:19:07.221Z</lastmod>
+    <lastmod>2017-03-10T15:25:10.283Z</lastmod>
     
   </url>
   
@@ -75,6 +75,13 @@
     <loc>http://yoursite.com/2015/12/31/2015report/</loc>
     
     <lastmod>2017-01-01T16:01:09.921Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/wiki/index.html</loc>
+    
+    <lastmod>2016-09-24T09:45:15.401Z</lastmod>
     
   </url>
   
