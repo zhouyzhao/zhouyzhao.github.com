@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/pop/kkk.html</loc>
+    
+    <lastmod>2017-03-10T15:28:08.934Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/pop/index.html</loc>
     
     <lastmod>2017-03-10T15:25:10.283Z</lastmod>
@@ -79,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://yoursite.com/wiki/index.html</loc>
+    <loc>http://yoursite.com/about/index.html</loc>
     
     <lastmod>2016-09-24T09:45:15.401Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://yoursite.com/wiki/index.html</loc>
     
     <lastmod>2016-09-24T09:45:15.401Z</lastmod>
     
