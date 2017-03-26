@@ -5,7 +5,7 @@
   <subtitle><![CDATA[有态度地寻找发现生活的美]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com//"/>
-  <updated>2017-01-02T03:28:04.354Z</updated>
+  <updated>2017-03-26T05:52:15.540Z</updated>
   <id>http://yoursite.com//</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[利用 workflow 自动添加图片水印]]></title>
+    <link href="http://yoursite.com/2017/03/26/workflow/"/>
+    <id>http://yoursite.com/2017/03/26/workflow/</id>
+    <published>2017-03-26T05:00:25.000Z</published>
+    <updated>2017-03-26T05:52:15.540Z</updated>
+    <content type="html"><![CDATA[<p>workflow 是 ios 平台上一款较为有名的自动化流程应用。用户通过它可以实现各种有趣且实用的自动化流程，减轻了应用之间的来回切换，是提高效率的利器。workflow 被苹果收购以后，变成永久免费。之前由于较贵的售价且不易上手的原因，一直没有机会体验。</p>
+<p>经过一番折腾，我用 workflow 制作了一个手机端批量为图片添加水印的流程。<a id="more"></a></p>
+<h2 id="需求：">需求：</h2><p>现在我们都喜欢用手机拍照，拍得好看的照片都喜欢发朋友圈。但有时候你好看的照片，被人很随意就拿走了。而照片其实也需要尊重版权的，因此为好看的照片添加一个小小的水印增加识别度是很有需要的。而 workflow 自由的设定就刚好满足我这一需求。</p>
+<h2 id="思路：">思路：</h2><p><img src="http://zhaolife.u.qiniudn.com/Workflow03.png" alt=""></p>
+<h2 id="实现：">实现：</h2><p><img src="http://zhaolife.u.qiniudn.com/workflow01.jpg" alt=""></p>
+<p>workflow 的流程，我已经共享出来，如果不想折腾，想使用的朋友。可以用手机 Safari 打开链接直接安装使用。需要提醒，在 Get File 里，workflow 是通过 iCloud Drive 调用水印。在这里我们可以设定指定的水印图片，或者把 Show Document Picker 打开，每次使用都询问使用那一张水印图片。</p>
+<p><img src="http://zhaolife.u.qiniudn.com/workflow02.jpg" alt=""></p>
+<p>在 Resize Image 里，可以修改缩放图片的大小，比例。在 Overlay Image 可以修改水印的位置，透明度，大小。</p>
+<h2 id="资源：">资源：</h2><p><a href="https://workflow.is/workflows/919eda3b82014ca2b946485237a55b14" target="_blank" rel="external">「workflow 自动添加水印」安装包</a></p>
+<p><a href="https://pan.baidu.com/s/1qYyK480" target="_blank" rel="external">「iPhone 7 jet black 外壳图片」</a> 密码：h2uw</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>workflow 是 ios 平台上一款较为有名的自动化流程应用。用户通过它可以实现各种有趣且实用的自动化流程，减轻了应用之间的来回切换，是提高效率的利器。workflow 被苹果收购以后，变成永久免费。之前由于较贵的售价且不易上手的原因，一直没有机会体验。</p>
+<p>经过一番折腾，我用 workflow 制作了一个手机端批量为图片添加水印的流程。]]>
+    
+    </summary>
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[我的 2016 个人总结]]></title>
